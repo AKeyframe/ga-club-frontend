@@ -1,3 +1,4 @@
+
 import Sneakers from "../pages/Sneakers";
 
 
@@ -70,5 +71,4 @@ export {
   createSneak,
   updateSneaker,
   deleteSneaker
-
 }
