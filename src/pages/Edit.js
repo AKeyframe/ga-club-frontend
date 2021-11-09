@@ -5,6 +5,7 @@ import { getOneSneaker } from "../services/sneakerService";
 import { updateSneaker } from "../services/sneakerService";
 import './css/show.scss'
 
+
 export default function Edit(props){
 
     const [sneaker, setSneaker] = useState(null);

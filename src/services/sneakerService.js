@@ -1,3 +1,4 @@
+
 import Sneakers from "../pages/Sneakers";
 
 
@@ -10,6 +11,7 @@ const getSneakers = async () => {
     const ret = await data;
     return (ret);
 }
+
 
 const getOneSneaker = async (id) => {
     const response = await fetch(URL+'/'+id);
@@ -69,5 +71,4 @@ export {
   createSneak,
   updateSneaker,
   deleteSneaker
-
 }

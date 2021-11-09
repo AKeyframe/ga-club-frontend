@@ -53,6 +53,7 @@ export default function Show(props){
                             {sneaker.name}</h1>
                        
 
+
                         <div className='sneak_descrip'>
                             <p>{sneaker.description}</p>
                         </div>

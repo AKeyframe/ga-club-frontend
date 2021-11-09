@@ -22,6 +22,7 @@ function App() {
   cart.current = []
 
 
+  
   return (
     <div className="App">
       <NavBar />

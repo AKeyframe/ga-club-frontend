@@ -2,6 +2,7 @@ import './css/carousel.scss'
 
 export default function Carousel() {
 
+    
     return (
         <><section class="carousel" aria-label="Gallery">
             <ol class="carousel__viewport">
