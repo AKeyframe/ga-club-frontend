@@ -11,6 +11,7 @@ export default function Sneakers(props) {
     const [sneakers, setSneakers] = useState(null);
     
 
+    
     async function updateSneakers() {
         setSneakers(await getSneakers());
     }

@@ -11,6 +11,7 @@ const getSneakers = async () => {
     return (ret);
 }
 
+
 const getOneSneaker = async (id) => {
     const response = await fetch(URL+'/'+id);
     const data = await response.json();

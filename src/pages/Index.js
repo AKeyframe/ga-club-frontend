@@ -13,6 +13,7 @@ export default function Index(props) {
                     &nbsp;
                 </div>
 
+
                 <div className='cardImgs'>
                     <div className="shop_mens">
                         <Link to='/sneakers'>

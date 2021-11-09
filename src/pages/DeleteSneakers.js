@@ -8,6 +8,7 @@ import { useParams, useNavigate } from "react-router";
 import { useEffect } from "react";
 import { deleteSneaker } from "../services/sneakerService";
 
+
 export default function Delete(){
     const params = useParams();
     const nav = useNavigate();

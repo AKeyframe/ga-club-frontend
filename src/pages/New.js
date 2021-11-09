@@ -15,6 +15,7 @@ function New(props) {
     image: ""
   });
 
+  
   const navigate = useNavigate();
   // handleChange function for form
   const handleChange = event => {
